@@ -161,7 +161,7 @@ BEGIN
     A := SIN(DLAT / 2) * SIN(DLNG / 2) + SIN(DLNG /2) * SIN(DLNG / 2) * COS(FLAT1) * COS(FLAT2);
     C := 2 * ATAN2(SQRT(A), SQRT(1 - A));
 
-    R := EARTH_RADIUS * C;
+    R := EARTH_RADIUS * C * 1000;
 
     DBMS_OUTPUT.PUT_LINE('DISTANCE IS ' || R || 'KMS');
 
