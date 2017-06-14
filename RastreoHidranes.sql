@@ -213,3 +213,17 @@ BEGIN
 	HIDRANTESARRAY(2):= H;
 END;
 /
+
+
+--lista hidrantes
+--forminstalacion
+--formmantenimiento
+--trabajos realizados
+-- RPH(Punto_busqueda gps, Radio float);)
+
+
+
+
+
+
+
