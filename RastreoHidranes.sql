@@ -215,10 +215,33 @@ END;
 /
 
 
+
+--tipoProceso 
+CREATE OR REPLACE TYPE Proceso as OBJECT(
+	id VARCHAR(15),
+	nombre varchar(15)--mantenimiento/instalacion
+)
+
+--solicitud de trabajo
+CREATE OR REPLACE TYPE SolicitudTrabajo as OBJECT(
+	id varchar(15),
+	UBIC UBICACION_TYP,
+	Proc Proceso,
+	descripcion VARCHAR(45)
+)
+
+
+
+CREATE OR REPLACE TrabajoRealizado as OBJECT(
+	Solicitud SolicitudTrabajo,
+	fecha date,
+	descripcion varchar(45)
+	
+);
+
+
 --lista hidrantes
---forminstalacion
---formmantenimiento
---trabajos realizados
+
 -- RPH(Punto_busqueda gps, Radio float);)
 
 
