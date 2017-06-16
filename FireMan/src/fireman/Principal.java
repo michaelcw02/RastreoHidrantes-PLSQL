@@ -49,7 +49,7 @@ public class Principal extends javax.swing.JFrame {
         jLabel3.setText("Michael Chen W");
 
         jLabel4.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel4.setText("Andrey");
+        jLabel4.setText("Andrey Arguedas E");
 
         jButton1.setBackground(new java.awt.Color(153, 153, 153));
         jButton1.setForeground(new java.awt.Color(0, 0, 0));
