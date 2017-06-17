@@ -159,8 +159,7 @@ CREATE OR REPLACE TYPE BODY HIDRANTE_TYP IS
         FOR i IN 1 .. SELF.TOMAS.COUNT LOOP 
             STR := STR || SELF.TOMAS(i).TAMANNO || ', ';
         END LOOP;
-        STR := STR || CHR(10);
-        STR := STR || SELF.CAUDAL.TO_STRING() || CHR(10);
+        STR := STR || CHR(10) || SELF.CAUDAL.TO_STRING() || CHR(10);
         STR := STR || 'GPS: ' || CHR(10) || SELF.GPS.TO_STRING() || CHR(10);
         STR := STR || 'ESTADO: ' || SELF.ESTADO || ' (1 = BUENO, 0 = MALO)';
         RETURN STR;
