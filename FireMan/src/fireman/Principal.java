@@ -111,8 +111,8 @@ public class Principal extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         dispose();
-        //PantallaConectar pc = new PantallaConectar();
-        //pc.setVisible(true);
+        Opciones op= new Opciones();
+        op.setVisible(true);
         
     }//GEN-LAST:event_jButton1ActionPerformed
 
