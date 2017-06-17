@@ -551,10 +551,6 @@ CREATE OR REPLACE TrabajoRealizado as OBJECT(
 );
 
 
---lista hidrantes
-
--- RPH(Punto_busqueda gps, Radio float);)
-
 
 
 
