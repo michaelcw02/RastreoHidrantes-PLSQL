@@ -546,13 +546,4 @@ CREATE OR REPLACE TrabajoRealizado as OBJECT(
 	Solicitud SolicitudTrabajo,
 	fecha date,
 	descripcion varchar(45)
-	
 );
-
-
-
-
-
-
-
-
